@@ -131,5 +131,5 @@ source $ZSH/oh-my-zsh.sh
 
 alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rikorpythonist/fwup.py"
 
-export TGBOT_TOKEN="686957453:AAHwUkTeDm1L2vNbNWcFX4j9Oe7nBpIQ3MI"
-export TG_USERID="237711264"
+source $HOME/.secret
+
