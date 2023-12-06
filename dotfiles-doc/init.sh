@@ -10,3 +10,8 @@ curl --compressed -o- -L https://yarnpkg.com/install.sh | sudo bash
 # В папке с coc.nvim
 cd $HOME/.vim/bundle/coc.nvim
 yarn install
+
+vim -c "PluginInstall"
+
+vim -c "CocInstall coc-pyright coc-markdownlint coc-json coc-highlight coc-fzf-preview coc-clangd coc-yaml coc-xml"
+
