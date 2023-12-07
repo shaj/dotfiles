@@ -129,7 +129,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+dtf () {
+  git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
+}
+
 alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rikorpythonist/fwup.py"
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 source $HOME/.secret
 
