@@ -10,7 +10,6 @@ dimensions.lines = 50
 
 resize_increments = true
 
-
 [font]
 normal.family = "Liberation Mono"
 bold.family = "Liberation Mono"
