@@ -138,5 +138,5 @@ alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rik
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-source $HOME/.secret
+# source $HOME/.secret
 

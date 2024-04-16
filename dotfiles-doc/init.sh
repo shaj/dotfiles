@@ -17,11 +17,11 @@ sudo npm install -g yarn
 curl -sL install-node.vercel.app/lts | sudo bash
 curl --compressed -o- -L https://yarnpkg.com/install.sh | sudo bash
 
-vim -c "PluginInstall"
+vim -c 'PluginInstall|q'
 
 # В папке с coc.nvim
 cd $HOME/.vim/bundle/coc.nvim
 yarn install
 
-vim -c "CocInstall coc-pyright coc-markdownlint coc-json coc-highlight coc-fzf-preview coc-clangd coc-yaml coc-xml"
+vim -c 'CocInstall coc-pyright coc-markdownlint coc-json coc-highlight coc-fzf-preview coc-clangd coc-yaml coc-xml|q'
 
