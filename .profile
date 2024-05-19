@@ -33,4 +33,4 @@ dtf () {
   git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
 }
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
