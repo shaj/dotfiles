@@ -74,6 +74,7 @@ syntax on
 
 set background=dark    " Setting dark mode
 " let g:gruvbox_contrast_dark='hard'
+set mouse=a
 
 " Отсюда:
 " https://github.com/microsoft/terminal/issues/832#issuecomment-502454504
