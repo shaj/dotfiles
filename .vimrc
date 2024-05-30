@@ -18,6 +18,7 @@ Plugin 'jalvesaq/vimcmdline'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+"Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf'
 
 Plugin 'morhetz/gruvbox'
@@ -33,6 +34,8 @@ Plugin 'vim-scripts/synic.vim'
 Plugin 'vim-scripts/literal_tango.vim'
 
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -89,7 +92,8 @@ set pastetoggle=<F3>
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-
+"let g:airline_theme='minimalist'
+let g:airline_theme='bubblegum'
 
 " " COC.NVIM
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
