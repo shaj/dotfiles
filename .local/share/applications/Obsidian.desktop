@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Obsidian
+Comment=Obsidian is the private and flexible writing app that adapts to the way you think
+Version=1.4.5
+Exec=/home/shaj/.local/bin/Obsidian.AppImage
+Terminal=false
+Type=Application
+Categories=Note;Markdown;
+StartupNotify=true
+Icon=/home/shaj/.local/bin/obsidian-icon.png
+MimeType=application/edit;
+GenericName=Obsidian
+StartupWMClass=obsidian
+
