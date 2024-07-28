@@ -21,12 +21,17 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 "Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf'
 
-Plugin 'morhetz/gruvbox'
-Plugin 'habamax/vim-gruvbit'
-Plugin 'aonemd/kuroi.vim'
-Plugin 'joshdick/onedark.vim'
-Plugin 'crusoexia/vim-monokai'
-Plugin 'jacoborus/tender.vim'
+Plugin 'vimwiki/vimwiki'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+
+
+" Plugin 'morhetz/gruvbox'
+" Plugin 'habamax/vim-gruvbit'
+" Plugin 'aonemd/kuroi.vim'
+" Plugin 'joshdick/onedark.vim'
+" Plugin 'crusoexia/vim-monokai'
+" Plugin 'jacoborus/tender.vim'
 
 Plugin 'vim-scripts/billw.vim'
 Plugin 'bignimbus/pop-punk.vim'
@@ -87,6 +92,9 @@ endif
 
 " set noesckeys
 set pastetoggle=<F3>
+
+" https://stackoverflow.com/a/40275194
+autocmd FileType c,cpp setlocal equalprg=clang-format
 
 
 " Airline
