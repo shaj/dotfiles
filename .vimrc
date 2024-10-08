@@ -102,7 +102,6 @@ autocmd BufRead,BufNewFile *.bb,*.bbappend setfiletype python
 
 " let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': 'md'}]
 
-
 let wiki_1 = {}
 let wiki_1.path = '~/MEGA/vimwiki/'
 let wiki_1.syntax = 'markdown'
