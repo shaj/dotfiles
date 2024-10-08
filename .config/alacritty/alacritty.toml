@@ -22,7 +22,7 @@ bold_italic.family = "Liberation Mono"
 # italic.family = "FreeMono"
 # bold_italic.family = "FreeMono"
 
-size = 10.0
+size = 8.5
 
 [keyboard]
 bindings = [
