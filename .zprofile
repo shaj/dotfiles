@@ -1,5 +1,5 @@
 
-echo "Executing ~/.zprofile"
+# echo "Executing ~/.zprofile"
 
 emulate sh
 source ~/.profile
