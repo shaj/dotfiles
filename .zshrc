@@ -133,7 +133,13 @@ dtf () {
   git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
 }
 
-alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rikorpythonist/fwup.py"
+# alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rikorpythonist/fwup.py"
+bmcupdate () {
+    $HOME/.local/bin/rikor-yocto-docker/env/bin/python $HOME/.local/bin/rikor-yocto-docker/fwup.py $@ \
+        && $HOME/.local/bin/rikor-yocto-docker/env/bin/python $HOME/.local/bin/rikor-yocto-docker/countdown.py 5
+}
+
+alias nvim="/home/shaj/.local/bin/nvim.appimage"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"

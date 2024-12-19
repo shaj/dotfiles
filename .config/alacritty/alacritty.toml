@@ -16,6 +16,11 @@ bold.family = "Liberation Mono"
 italic.family = "Liberation Mono"
 bold_italic.family = "Liberation Mono"
 
+# normal.family = "Incosolata Nerd Font"
+# bold.family = "Incosolata Nerd Font"
+# italic.family = "Incosolata Nerd Font"
+# bold_italic.family = "Incosolata Nerd Font"
+
 # normal.family = "FreeMono"
 # bold.family = "FreeMono"
 # italic.family = "FreeMono"

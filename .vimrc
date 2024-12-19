@@ -12,11 +12,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'scrooloose/nerdtree'
-Plugin 'jalvesaq/vimcmdline'
-Plugin 'sheerun/vim-polyglot'
+" Plugin 'jalvesaq/vimcmdline'
+" Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 "Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
