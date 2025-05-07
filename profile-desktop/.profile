@@ -29,8 +29,4 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-dtf () {
-  git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
-}
-
 # . "$HOME/.cargo/env"

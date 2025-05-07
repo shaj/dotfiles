@@ -3,14 +3,18 @@ import = [
     "~/.config/alacritty/themes/themes/tango_dark.toml"
 ]
 
-[window]
+[env]
+TERM = "alacritty-direct"
 
+[window]
 dimensions.columns = 140
 dimensions.lines = 50
 
 resize_increments = true
 
 [font]
+size = 8.5
+
 normal.family = "Liberation Mono"
 bold.family = "Liberation Mono"
 italic.family = "Liberation Mono"
@@ -25,8 +29,6 @@ bold_italic.family = "Liberation Mono"
 # bold.family = "FreeMono"
 # italic.family = "FreeMono"
 # bold_italic.family = "FreeMono"
-
-size = 8.5
 
 [keyboard]
 bindings = [

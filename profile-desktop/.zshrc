@@ -18,7 +18,8 @@ export LC_ALL=en_US.UTF-8
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export TERM=screen-256color
+# export TERM=screen-256color
+export TERM=xterm-256color
 
 eval "$(fasd --init auto)"
 
@@ -128,10 +129,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-dtf () {
-  git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
-}
 
 # alias bmcupdate="/home/shaj/wrk/rikorpythonist/env/bin/python /home/shaj/wrk/rikorpythonist/fwup.py"
 bmcupdate () {
