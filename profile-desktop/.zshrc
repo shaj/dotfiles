@@ -145,3 +145,12 @@ export EDITOR="$VISUAL"
 
 # gnome-keyring-daemon --replace --daemonize --components=pkcs11,secrets,gpg
 
+wrapper(){
+    start=$(date +%s)
+    "$@"
+    [ $(($(date +%s) - start)) -le 30 ] || notify-send "Notification" "Long running command \"$(echo $@)\" took $(($(date +%s) - start)) seconds to finish"
+}
+
+alias cdx="cd $(xplr)"
+alias nvimx="nvim $(xplr)"
+
