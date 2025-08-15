@@ -12,3 +12,14 @@ vim.lsp.config('*', {
   root_markers = { '.git' },
 })
 
+-- require("mason").setup()
+-- local packages = {
+--     "black",          -- Python formatter
+--     "stylua",         -- Lua formatter
+--     "prettier",       -- JS/TS formatter
+--     "clangd",         -- C/C++ LSP
+-- }
+-- require("mason-tool-installer").setup {
+--     ensure_installed = packages,
+-- }
+

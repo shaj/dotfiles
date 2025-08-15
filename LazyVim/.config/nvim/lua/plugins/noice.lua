@@ -2,12 +2,12 @@
 --
 
 return {
-    {
-        "folke/noice.nvim",
-        optional = true,
-        event = "VeryLazy",
-        opts = {
-            cmdline = { view = "cmdline" },
-        },
-    },
+    -- {
+    --     "folke/noice.nvim",
+    --     optional = true,
+    --     event = "VeryLazy",
+    --     opts = {
+    --         cmdline = { view = "cmdline" },
+    --     },
+    -- },
 }
