@@ -100,6 +100,9 @@ plugins=(
   docker
   docker-compose
   tmux
+# https://github.com/wfxr/formarks
+# git clone https://github.com/wfxr/formarks.git /home/shaj/.oh-my-zsh/custom/plugins/formarks/
+  formarks
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -151,6 +154,15 @@ wrapper(){
     [ $(($(date +%s) - start)) -le 30 ] || notify-send "Notification" "Long running command \"$(echo $@)\" took $(($(date +%s) - start)) seconds to finish"
 }
 
-alias cdx="cd $(xplr)"
-alias nvimx="nvim $(xplr)"
+# cdx(){
+#   cd $(xplr)
+# }
+#
+# nvimx(){
+#   nvim $(xplr)
+# }
+
+alias cdx='cd "$(xplr --print-pwd-as-result)"'
+alias nvimx='nvim "$(xplr --print-pwd-as-result)"'
+
 
