@@ -139,9 +139,7 @@ bmcupdate () {
         && $HOME/.local/bin/rikor-yocto-docker/env/bin/python $HOME/.local/bin/rikor-yocto-docker/countdown.py 5
 }
 
-alias nvim="/home/shaj/.local/bin/nvim.appimage"
-
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # source $HOME/.secret
@@ -163,6 +161,6 @@ wrapper(){
 # }
 
 alias cdx='cd "$(xplr --print-pwd-as-result)"'
-alias nvimx='nvim "$(xplr --print-pwd-as-result)"'
+alias nvimx='nvim "$(xplr)"'
 
 
