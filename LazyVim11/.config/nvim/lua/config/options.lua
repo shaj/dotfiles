@@ -10,3 +10,12 @@ vim.g.autoformat = false
 vim.o.relativenumber = false
 vim.lsp.inlay_hint.enable(false)
 vim.diagnostic.enable(false)
+
+vim.o.exrc = true
+vim.o.secure = true
+
+vim.opt.spell = true
+vim.opt.spelllang = { "en", "ru" }
+
+
+
