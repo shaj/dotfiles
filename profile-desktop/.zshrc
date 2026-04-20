@@ -12,8 +12,8 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # Setting for the new UTF-8 terminal support in Lion
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
+# export LC_CTYPE=en_US.UTF-8
+# export LC_ALL=en_US.UTF-8
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -163,4 +163,9 @@ wrapper(){
 alias cdx='cd "$(xplr --print-pwd-as-result)"'
 alias nvimx='nvim "$(xplr)"'
 
+alias lzg='lazygit'
+
+setopt no_share_history  # Отключает обмен историей между терминалами
+
+export PATH=$PATH:/usr/local/go/bin
 
