@@ -1,0 +1,11 @@
+-- Source - https://stackoverflow.com/a/76039670
+-- Posted by K Kafara
+-- Retrieved 2026-07-27, License - CC BY-SA 4.0
+
+local tokyotheme = require("tokyonight")
+tokyotheme.setup({
+  on_colors = function (colors)
+    colors.fg_gutter = "#b2b8cf"
+  end
+})
+
