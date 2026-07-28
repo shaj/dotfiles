@@ -169,3 +169,6 @@ setopt no_share_history  # Отключает обмен историей меж
 
 export PATH=$PATH:/usr/local/go/bin
 
+# Выводить время, если команда выполняется дольше 10 секунд
+REPORTTIME=10
+
