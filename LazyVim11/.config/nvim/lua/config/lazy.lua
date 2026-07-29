@@ -53,3 +53,4 @@ require("lazy").setup({
 })
 
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#b2b8cf", bg = "NONE" })
+vim.lsp.inlay_hint.enable(false)
