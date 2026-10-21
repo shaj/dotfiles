@@ -164,6 +164,7 @@ alias cdx='cd "$(xplr --print-pwd-as-result)"'
 alias nvimx='nvim "$(xplr)"'
 
 alias lzg='lazygit'
+alias lzd='/home/andrey/go/bin/lazydocker'
 
 setopt no_share_history  # Отключает обмен историей между терминалами
 

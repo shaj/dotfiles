@@ -12,9 +12,9 @@ return {
                 lua = { "stylua" },
                 fish = { "fish_indent" },
                 sh = { "shfmt" },
-                make = { "mbake" },
-                Makefile = { "mbake" },
-                cmake = { "cmakelang" },
+                make = { "bake" },
+                Makefile = { "bake" },
+                cmake = { "cmake_format" },
                 xml = { "xmlformatter" },
             },
             -- The options you set here will be merged with the builtin formatters.

@@ -18,5 +18,5 @@ vim.o.secure = true
 vim.opt.spell = true
 vim.opt.spelllang = { "en", "ru" }
 
-vim.opt.listchars:append({ tab = "  " })
+-- vim.opt.listchars:append({ tab = "  " })
 

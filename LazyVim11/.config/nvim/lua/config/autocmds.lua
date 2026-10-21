@@ -15,3 +15,17 @@ vim.api.nvim_create_autocmd("FileType", {
   end
 })
 
+-- Выключаем inlay hints автоматически при подключении любого LSP-клиента
+vim.api.nvim_create_autocmd("LspAttach", {
+  callback = function(args)
+    local buffer = args.buf
+    -- Небольшая задержка, чтобы гарантированно выполниться ПОСЛЕ того,
+    -- как LazyVim принудительно включит их при старте
+    vim.schedule(function()
+      if vim.api.nvim_buf_is_valid(buffer) then
+        vim.lsp.inlay_hint.enable(false, { bufnr = buffer })
+      end
+    end)
+  end,
+})
+
