@@ -1,0 +1,8 @@
+poll mail.dep.ru
+    protocol pop3
+    username "schebolev_ay@dep.ru"
+    is "andrey" here
+    keep
+    mda "/usr/bin/procmail -d %T"
+    no sslcertck
+

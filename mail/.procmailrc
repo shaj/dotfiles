@@ -1,0 +1,7 @@
+MAILDIR=$HOME/Mail
+DEFAULT=$MAILDIR/mbox
+LOGFILE=$MAILDIR/procmail.log
+VERBOSE=yes
+
+:0hc
+| formail -X "From:" -X "Subject:" | perl -X -MEncode=from_to -pe 'from_to $_, "MIME-Header", "utf-8"' > /run/user/1000/mail.notify-send; DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send --icon=/usr/share/icons/gnome/32x32/actions/mail-message-new.png "`cat /run/user/1000/mail.notify-send`"
