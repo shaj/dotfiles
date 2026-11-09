@@ -1,0 +1,3 @@
+set spoolfile=~/Mail/mbox
+set mbox_type=mbox
+
